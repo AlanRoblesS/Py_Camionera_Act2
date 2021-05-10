@@ -101,7 +101,7 @@ class Inicio extends StatelessWidget {
                             textAlign: TextAlign.center,
                             style: TextStyle(
                               color: Colors.blue[900],
-                              fontWeigth: FontWeigth.w900
+                              fontWeight: FontWeight.w900
                             ),
                           ),
                         ),//Fin de center
