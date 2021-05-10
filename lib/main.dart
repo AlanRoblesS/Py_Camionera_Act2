@@ -94,7 +94,7 @@ class Inicio extends StatelessWidget {
                       },
                       child: SizedBox(
                         width: 100,
-                        heigth: 100,
+                        height: 100,
                         child: Center(
                           child: Text(
                             'INICIO',
