@@ -80,36 +80,38 @@ class Inicio extends StatelessWidget {
           children: <Widget>[
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
-              children: Column(
-                children: <Widget>[
-                  Padding(
-                    padding: EdgeInsets.all(10),
-                    child: RaisedButton(
-                      color: Colors.white,
-                      shape: new RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(10.0)
-                      ),
-                      onPressed: (){
-                        Navigator.pushNamed(context, "/inicio");
-                      },
-                      child: SizedBox(
-                        width: 100,
-                        height: 100,
-                        child: Center(
-                          child: Text(
-                            'INICIO',
-                            textAlign: TextAlign.center,
-                            style: TextStyle(
-                              color: Colors.blue[900],
-                              fontWeight: FontWeight.w900
+              children: <Widget>[ 
+                Column(
+                 children: <Widget>[
+                   Padding(
+                      padding: EdgeInsets.all(10),
+                      child: RaisedButton(
+                        color: Colors.white,
+                        shape: new RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10.0)
+                        ),
+                       onPressed: (){
+                         Navigator.pushNamed(context, "/inicio");
+                       },
+                       child: SizedBox(
+                          width: 100,
+                          height: 100,
+                          child: Center(
+                            child: Text(
+                             'INICIO',
+                             textAlign: TextAlign.center,
+                             style: TextStyle(
+                                color: Colors.blue[900],
+                                fontWeight: FontWeight.w900
+                              ),
                             ),
-                          ),
-                        ),//Fin de center
-                      ),//Fin de sizedbox
-                    ),//Fin del botonInicio
-                  )//Fin padding
-                ],//Fin de widget interno
-              ),//Fin columna interna
+                         ),//Fin de center
+                       ),//Fin de sizedbox
+                      ),//Fin del botonInicio
+                    )//Fin padding
+                  ],//Fin de widget interno
+                ),//Fin columna interna
+              ],//Fin widget[]
             ),//Fin de fila1
           ],//Fin de widget[]
         ),//Fin de Columna
