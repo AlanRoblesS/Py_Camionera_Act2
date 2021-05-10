@@ -72,7 +72,7 @@ class Inicio extends StatelessWidget {
         decoration: BoxDecoration(
           color: Colors.red,
           image: DecorationImage(
-            image: NetworkImage("https://raw.githubusercontent.com/AlanRoblesS/Mis_Imagenes/main/vacunas-consejos-peru.jpg"),
+            image: NetworkImage("https://upload.wikimedia.org/wikipedia/commons/c/c0/Autobuses_el%C3%A9ctricos_BYD_en_Bogot%C3%A1.jpg"),
             alignment: Alignment.topCenter,
           ), //Fin de image
         ), //Fin de boxdecoration
