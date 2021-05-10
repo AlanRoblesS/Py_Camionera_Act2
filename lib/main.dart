@@ -8,7 +8,7 @@ class MiCamioneraApp extends StatelessWidget {
     return MaterialApp(
         title: 'Central Camionera',
         theme: ThemeData(
-          primarySwatch: Colors.black87,
+          primarySwatch: Colors.blueGrey,
         ),
         //Ruta de ventanas
         routes: <String, WidgetBuilder>{
