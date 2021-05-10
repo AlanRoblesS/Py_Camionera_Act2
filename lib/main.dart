@@ -140,7 +140,68 @@ class Inicio extends StatelessWidget {
                   ],//Fin de widget[]
                 ),//Fin de columna interna 2
               ],//Fin widget[]
-            ),//Fin de fila1
+            ),//Fin de fila 1
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                Column(
+                  children: <Widget>[
+                    Padding(
+                      padding: EdgeInsets.all(10),
+                      child: RaisedButton(
+                        color: Colors.white,
+                        shape: new RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/viajes");
+                        },
+                        child: SizedBox(
+                          width: 100,
+                          height: 100,
+                          child: Center(
+                            child: Text(
+                              "VIAJES", 
+                              textAlign: TextAlign.center
+                              style: TextStyle(
+                                color: Colors.grey[800],
+                                fontWeight: FontWeight.w900
+                              ),
+                              ),
+                          ),//Fin de center
+                        ),//Fin del sizedbox
+                      ),//Fin del boton viajes
+                    )//Fin de padding
+                  ],//Fin de widget[]
+                ),//Fin de columna interna 1
+                Column(
+                  children: <Widget>[
+                    Padding(
+                      padding: EdgeInsets.all(10),
+                      child: RaisedButton(
+                        color: Colors.white,
+                        shape: new RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/contacto");
+                        },
+                        child: SizedBox(
+                          width: 100,
+                          height: 100,
+                          child: Center(
+                            child: Text(
+                              "CONTACTO", 
+                              textAlign: TextAlign.center
+                              style: TextStyle(
+                                color: Colors.cyan[900],
+                                fontWeight: FontWeight.w900
+                              ),
+                              ),
+                          ),//Fin de center
+                        ),//Fin del sizedbox
+                      ),//Fin del botonContactos
+                    )//Fin de padding
+                  ],//Fin de widget
+                ),//Fin de columna interna 2
+              ],
+            ),//Fin de fila 2
           ],//Fin de widget[]
         ),//Fin de Columna
       ), //Fin de body Container
