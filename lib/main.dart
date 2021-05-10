@@ -125,13 +125,20 @@ class Inicio extends StatelessWidget {
                           width: 100,
                           height: 100,
                           child: Center(
-                            child: Text("EMPRESA", textAlign: TextAlign.center),
-                          ),
-                        ),
-                      ),
-                    )
-                  ],
-                ),
+                            child: Text(
+                              "EMPRESA", 
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                color: Colors.blueGrey[700],
+                                fontWeight: FontWeight.w900
+                              ),
+                              ),
+                          ),//Fin de center
+                        ),//Fin de sizedbox
+                      ),//Fin del botonEmpresa
+                    )//Fin de padding
+                  ],//Fin de widget[]
+                ),//Fin de columna interna 2
               ],//Fin widget[]
             ),//Fin de fila1
           ],//Fin de widget[]
