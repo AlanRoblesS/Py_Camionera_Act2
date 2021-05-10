@@ -70,7 +70,7 @@ class Inicio extends StatelessWidget {
       body: Container(
         padding: EdgeInsets.only(top: 130, bottom: 10, right: 10, left: 10),
         decoration: BoxDecoration(
-          color: Colors.black38,
+          color: Colors.black54,
           image: DecorationImage(
             image: NetworkImage("https://upload.wikimedia.org/wikipedia/commons/c/c0/Autobuses_el%C3%A9ctricos_BYD_en_Bogot%C3%A1.jpg"),
             alignment: Alignment.topCenter,
