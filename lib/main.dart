@@ -160,7 +160,7 @@ class Inicio extends StatelessWidget {
                           child: Center(
                             child: Text(
                               "VIAJES", 
-                              textAlign: TextAlign.center
+                              textAlign: TextAlign.center,
                               style: TextStyle(
                                 color: Colors.grey[800],
                                 fontWeight: FontWeight.w900
@@ -188,7 +188,7 @@ class Inicio extends StatelessWidget {
                           child: Center(
                             child: Text(
                               "CONTACTO", 
-                              textAlign: TextAlign.center
+                              textAlign: TextAlign.center,
                               style: TextStyle(
                                 color: Colors.cyan[900],
                                 fontWeight: FontWeight.w900
